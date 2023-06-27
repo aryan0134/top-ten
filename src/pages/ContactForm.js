@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import emailjs from 'emailjs-com'
 
 function ContactForm() {
  
@@ -9,12 +10,26 @@ function ContactForm() {
     const [emptyFields, setEmptyFields] = useState([])
     const [error, setError] = useState(null)
 
+    const sendEmail = (e) => {
+        // e.preventDefault()
+
+        emailjs.sendForm(
+            process.env.REACT_APP_SERVICE_ID,
+            process.env.REACT_APP_TEMPLATE_ID,
+            form.current,
+            process.env.REACT_APP_USER_ID
+        ).then(
+            result => console.log(result.text),
+            error => console.log(error.text)
+        )
+    }
+
     const handleSubmit = async (e) => {
         e.preventDefault()
 
         const ans= {name, email, message}
 
-        const response = await fetch('/api/messages/', {
+        const response = await fetch('https://top-ten-backend.onrender.com/api/messages/', {
             method: 'POST',
             body: JSON.stringify(ans),
             headers: {
@@ -36,6 +51,7 @@ function ContactForm() {
             setError(null)
             console.log('New message posted', json)
             alert('Message posted successfully , We will get back to you ASAP!')
+            sendEmail()
         }
     }
   
