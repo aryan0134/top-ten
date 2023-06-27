@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
 
 function ContactForm() {
  
+    const form = useRef()
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [message, setMessage] = useState("")
@@ -56,7 +57,7 @@ function ContactForm() {
     }
   
     return (
-        <form className='contact-f' onSubmit={handleSubmit}>
+        <form className='contact-f' ref={form} onSubmit={handleSubmit}>
             <input 
                 type='text'
                 onChange={ (e) => setName(e.target.value)}
