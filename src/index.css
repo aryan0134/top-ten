@@ -401,7 +401,7 @@ textarea.error{
 
 }
 .details{
-  height: 9%;
+  height: 11%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -415,7 +415,7 @@ textarea.error{
 
 }
 .above{
-  height: 50%;
+  height: 55%;
   width: 100%;
   display: flex;
   /* border: 1px solid green; */
