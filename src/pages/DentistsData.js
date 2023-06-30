@@ -38,7 +38,7 @@ export const DentistsData = [
     {img: KingWestDental , 
     name: "Dr. Jermaine Hao of 720 King West Dental",
     about: "General dentistry, cleaning and check-ups, digital x-rays, emergency dental services, and preventative care.During dental school, words of wisdom from my one of my professor stuck with me throughout these years, 'when doing your dentistry...treat everyone like family...'Our mission as your dental office is to do just that.",
-    location: "720 King St W #145, Toronto, ON M5V 2T3, Canada (Located near Tim Hortons and Scotiabank)",
+    location: "720 King St W #145, Toronto, ON M5V 2T3, Canada (Located near Tim Hortons)",
     number: "416-703-6408",
     },
     {img: HarariChocronDentalCentre , 
