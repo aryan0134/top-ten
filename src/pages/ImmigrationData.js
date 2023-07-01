@@ -4,7 +4,7 @@ import oneimmigration from './oneimmigration.png'
 import cicsimmigration from './cicsimmigration.png'
 import brightimmigration from './brightimmigration.png'
 import mapleleafimmigration from './mapleleafimmigration.jpg'
-import canamimmigration from './canamimmigration.png'
+import rightwayimmigration from './rightwayimmigration.png'
 import lifeashoreimmigration from './lifeashoreimmigration.png'
 import lifelineimmigration from './lifelineimmigration.png'
 import westimmigration from './westimmigration.png'
@@ -42,11 +42,11 @@ export const ImmigrationData = [
     location: "3342A Yonge Street – 2nd Floor Toronto, Ontario M4N 2M4",
     number: "+1 (647) 748-8472",
     },
-    {img: canamimmigration , 
-    name: "Canam Study Abroad",
-    about: "We understand their requirements and ambitions intently so they receive the best guidance.Canam is a one-stop destination with on ground and cloud presence for all its services. We ensure students also get online access to updated program information, applications status, and manage their profile.",
-    location: "SCO 83-84, Sector 17-D,Chandigarh 160017,India",
-    number: "1800 137 8055",
+    {img: rightwayimmigration , 
+    name: "RightWay Canada Immigration Services",
+    about: "At RightWay Canada Immigration Services we have extraordinary success rate, as we develop effective immigration strategy for each client individually.  Our Canadian immigration services include Express Entry & Citizenship, Skilled Worker & Experience Class, Family & Spousal Sponsorship, Work & Study Permit, Visitor & Super Visa, Final Reviews & Hourly Consultations, etc. We understand, that full representation may be beyond many people's means and unlike many other immigration consultants or immigration lawyers, at we offer affordable options, where YOU control the costs of your own case. The greatest thing about our services is that Initial Immigration Consultation fee will be fully credited towards future professional fees when you hire us to help with your immigration matters.",
+    location: "1105-250 Consumers Road Toronto, ON M2J 4V6",
+    number: "+1 (647) 494-7977",
     },
     {img: lifeashoreimmigration , 
     name: "Life Ashore Immigration Consultancy Inc. ",
