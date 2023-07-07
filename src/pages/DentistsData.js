@@ -1,6 +1,5 @@
-import template from './template.jpg'
+import komal from './komal.png'
 import  WaterviewDental from './ WaterviewDental.png'
-import  ElginMillsEndodontic from './ElginMillsEndodontic.png'
 import  TorontoBeachDental from './TorontoBeachDental.png'
 import  ChaplinDental from './ChaplinDental.png'
 import  KingWestDental from './KingWestDental.png'
@@ -17,11 +16,11 @@ export const DentistsData = [
     location: "1650 Elgin Mills Rd E Suite 310, Richmond Hill, ON L4S 0B2, Canada",
     number: "416-368-285",
     },
-    {img: ElginMillsEndodontic , 
-    name: "Elgin Mills Endodontic",
-    about: "We understand how important it is to have a healthy smile, and we strive to make sure that you're confident in your decision to undergo endodontic therapy. At Elgin Mills Endodontic Specialists, we take the time to explain procedures to you in detail and answer any questions you may have.Our goal is to make sure you feel comfortable and well-informed every step of the way, from diagnosis to post-treatment follow-up of any types of dental issues. We provide specialized care for all endodontic needs, and we are here to support you throughout the process.",
-    location: "73 Dundas St W, Mississauga, ON L5B 1H7 ",
-    number: "+16479247525",
+    {img: komal , 
+        name: "Dr. Komal Jain, DMD",
+        about: "Dr. Komal Jain is a General Dentist at Komal Jain Dentistry in Mississauga with a dental experience of more than 15 Years. She is one of the best dentist in Toronto. She graduated in Dentistry from Boston University, US and then went on to receive her Licensing from University of Toronto Faculty of Dentistry after completing the National Dental Examining Board of Canada.",
+        location: "73 Dundas St W, Mississauga, ON L5B 1H7 ",
+        number: "(905) 232-6588",
     },
     {img: TorontoBeachDental , 
     name: " Dr. Jay Rabinovich of Toronto Beach Dental",
