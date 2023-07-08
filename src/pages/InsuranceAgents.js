@@ -1,5 +1,5 @@
 import React from 'react'
-import { DentistsData } from './DentistsData'
+import { InsuranceAgentsData } from './InsuranceAgentsData'
 import Details from './Details'
 import insurance from './insurance.gif'
 
@@ -7,7 +7,7 @@ function InsuranceAgents() {
   return (
     <div className='dentists'>
         <div className='dentist-details'>
-            {DentistsData.map((current)=>(
+            {InsuranceAgentsData.map((current)=>(
                 <Details current={current}/>
             ))}
         </div>
